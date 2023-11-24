@@ -265,7 +265,7 @@ if (isset($_POST['send'])) {
     <section class="contact" id="contact">
         <h3 class="heading" data-aos="fade-up"><span>Contact Me</span></h3>
 
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> " method="post">
             <div class="flex">
                 <input data-aos="fade-right" type="text" name="name" placeholder="enter your name" class="box" required>
                 <input data-aos="fade-left" type="email" name="email" placeholder="enter your email" class="box" required>
